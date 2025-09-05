@@ -1,0 +1,10 @@
+selenium>=4.0.0
+webdriver-manager>=3.8.3
+numpy>=1.21.0
+assemblyai
+openai-whisper
+python-dotenv
+pyaudio
+pyannote.audio
+torch
+torchaudio
