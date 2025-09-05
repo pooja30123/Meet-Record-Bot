@@ -1,6 +1,5 @@
 # 🚀 Google Meet Recording & Transcription Bot 🤖
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/pooja30123/Meet-Record-Bot?color=orange)  
 ![GitHub license](https://img.shields.io/github/license/pooja30123/Meet-Record-Bot?color=green)  
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)  
 ![Platforms](https://img.shields.io/badge/platform-windows-yellow)  
@@ -59,10 +58,10 @@ macOS/Linux
 source venv/bin/activate
 pip install -r requirements.txt
 echo ASSEMBLYAI_API_KEY=your_api_key_here > .env
-
+```
 Download ChromeDriver from https://chromedriver.chromium.org/downloads
  (same Chrome version)
-```
+
 
 **Enable Stereo Mix:**  
 Right-click speaker icon → **Sounds** → **Recording** → Enable "Stereo Mix" → **Properties** → **Listen** → ✅ "Listen to this device".
