@@ -1,9 +1,10 @@
 # 🚀 Google Meet Recording & Transcription Bot 🤖
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/pooja30123/google-meet-bot?color=orange)  
-![GitHub license](https://img.shields.io/github/license/pooja30123/google-meet-bot?color=green)  
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/pooja30123/Meet-Record-Bot?color=orange)  
+![GitHub license](https://img.shields.io/github/license/pooja30123/Meet-Record-Bot?color=green)  
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)  
-![Platforms](https://img.shields.io/badge/platform-windows-yellow)
+![Platforms](https://img.shields.io/badge/platform-windows-yellow)  
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube&logoColor=white)](https://youtu.be/CqdJRwgY1to)
 
 ---
 
@@ -15,37 +16,40 @@ Automated, silent Google Meet recorder that joins meetings, captures system audi
 
 ## ✨ Features
 
-- **🤖 Auto-join Google Meet** (no manual intervention)
-- **🔇 Silent & invisible** (muted mic, disabled camera, green mic indicator up)
-- **🎧 Stereo Mix recording** (captures all meeting audio)
-- **📝 AI Transcription** (AssemblyAI Premium + OpenAI Whisper fallback)
-- **👥 Speaker diarization** (who said what?)
-- **📂 Automatic output** (audio & transcripts saved in `/outputs`)
+- **🤖 Auto-join Google Meet** (no manual intervention)  
+- **🔇 Silent & invisible** (muted mic, disabled camera, green mic indicator up)  
+- **🎧 Stereo Mix recording** (captures all meeting audio)  
+- **📝 AI Transcription** (AssemblyAI Premium + OpenAI Whisper fallback)  
+- **👥 Speaker diarization** (who said what?)  
+- **📂 Automatic output** (audio & transcripts saved in `/outputs`)  
 
 ---
 
 ## 🎥 Demo Video
 
-See the bot in action! [Watch on YouTube](https://youtu.be/CqdJRwgY1to) 
+▶️ Watch the bot in action!  
+
+[![Watch Demo](https://img.youtube.com/vi/CqdJRwgY1to/0.jpg)](https://youtu.be/CqdJRwgY1to)
 
 ---
 
 ## 💻 Installation
 
 ### Prerequisites
-- **Python 3.8+**
-- **Chrome browser** (latest stable)
-- **ChromeDriver** (same Chrome version)
-- **AssemblyAI API key** (get yours [here](https://www.assemblyai.com/))
-- **Windows**: Enable "Stereo Mix" in Sound settings
+- **Python 3.8+**  
+- **Chrome browser** (latest stable)  
+- **ChromeDriver** (same Chrome version)  
+- **AssemblyAI API key** (get yours [here](https://www.assemblyai.com/))  
+- **Windows**: Enable "Stereo Mix" in Sound settings  
 
 ---
 
 ### Quick Setup
 
 ```
-git clone https://github.com/pooja30123/google-meet-bot.git
-cd google-meet-bot
+git clone https://github.com/pooja30123/Meet-Record-Bot.git
+
+cd Meet-Record-Bot
 python -m venv venv
 
 Windows
@@ -56,19 +60,17 @@ source venv/bin/activate
 pip install -r requirements.txt
 echo ASSEMBLYAI_API_KEY=your_api_key_here > .env
 
-Download ChromeDriver from https://chromedriver.chromium.org/downloads (same Chrome version)
+Download ChromeDriver from https://chromedriver.chromium.org/downloads
+ (same Chrome version)
 ```
 
 **Enable Stereo Mix:**  
-Right-click speaker icon → Sounds → Recording → Enable "Stereo Mix" → Properties → Listen → "Listen to this device" (tick).
+Right-click speaker icon → **Sounds** → **Recording** → Enable "Stereo Mix" → **Properties** → **Listen** → ✅ "Listen to this device".
 
 ---
 
 ## ▶️ Usage
 
-```
-python main.py
-```
 
 Paste your Google Meet URL (with `https://`) when prompted.
 
@@ -94,13 +96,13 @@ Paste your Google Meet URL (with `https://`) when prompted.
 ## 🛠️ Troubleshooting
 
 - **No audio?**  
-  Enable Stereo Mix, run terminal as Administrator (Windows)
+  Enable Stereo Mix, run terminal as Administrator (Windows)  
 - **Bot can't join?**  
-  Use full URL: `https://meet.google.com/abc-defg-hij`
+  Use full URL: `https://meet.google.com/abc-defg-hij`  
 - **AssemblyAI/Selenium errors?**  
-  Check API key, Chrome/ChromeDriver version, firewall
+  Check API key, Chrome/ChromeDriver version, firewall  
 - **Need help?**  
-  Open an issue on GitHub
+  Open an issue on GitHub  
 
 ---
 
@@ -119,11 +121,8 @@ Special thanks to [AssemblyAI](https://www.assemblyai.com/), [OpenAI Whisper](ht
 ## 👤 Author
 
 **Pooja Verma**  
-[GitHub](https://github.com/pooja30123) | poojaverma300702@gmail.com
+[GitHub](https://github.com/pooja30123) | 📧 poojaverma300702@gmail.com  
 
 ---
 
 ⭐ **If this repo helped you, please star it!** ⭐
-
-
-
